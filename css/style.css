@@ -1,0 +1,257 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(235, 232, 228);
+}
+.main{
+    width: 100%;
+    height: 600px;
+    background-image:url('../images/main g.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+}
+menu{
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    height: 50px;
+}
+.logo{
+    float: left;
+    width: 150px;
+    margin-left: 10%;
+    margin-top: 10px;
+}
+menu>ul{
+    list-style-type: none;
+    margin-right: 10%;
+}
+menu>ul>a{
+    text-decoration: none;
+}
+menu>ul>a>li{
+    float: right;
+    color: aliceblue;
+    padding: 10px;
+    font-size: 18px;
+}
+menu>ul>a>li:hover{
+    float: right;
+    color: rgb(0, 255, 34);
+    padding: 10px;
+    font-size: 20px;
+    transition: 1s;
+}
+.main h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 55px;
+}
+.main h2{
+    margin-top: 20px;
+    text-align: center;
+    color: antiquewhite;
+}
+.social-sub{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.social-sub img{
+    width: 30%;
+    padding: 1%;
+}
+/*********Featured Css******/
+.Featured{
+    width: 100%;
+    height: 450px;
+    padding-bottom: 2%;
+}
+.Featured>div{
+    width: 50%;
+    float: left;
+    margin-top: 95px;
+}
+.fd1{
+    display: inline-block;
+    width: 100%;
+}
+.fd1-btn{
+    margin-left:25% ;
+}
+.Featured-btn{
+    background-color: violet;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.Featured-hed{
+    float: right;
+    font-size: 40px;
+    background-color: rgb(255, 255, 255);
+    margin-right: -20%;
+    padding: 3% 10% 3% 10%;
+    z-index: 1;
+}
+.Featured-d1 p{
+    margin-left: 25%;
+    color: gray;
+    margin-top: 30px;
+}
+.Featured-d1>a{
+    text-decoration: none;
+}
+.ltn{
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.ltn>span{
+    border: 1px solid violet;
+    border-radius: 50%;
+    margin-top: 10px;
+    color: violet;
+}
+.Featured img{
+    position: relative;
+    height:350px;
+    width:40%;
+    float: right;
+    padding: 5%;
+    z-index: -1;
+}
+/******Latest Episo****/
+.ltep{
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.473), rgba(0, 0, 0, 0.596)), url(../images/feature-image.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0px 20px 0px;
+    color: white;
+}
+.ltep>h1{
+    font-size: 35px;
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: inline-block;
+}
+.ltep>a{
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: blanchedalmond;
+    font-size: 20px;
+
+}
+.shap{
+    width: 8%;
+    height: 2px;
+    background-color: rgb(190, 84, 84);
+    margin: 0 auto;
+    margin-bottom: 25px;
+
+}
+.ltep-post{
+    width: 85%;
+    margin: 0 auto;
+}
+.ltep-posts{
+    width: 30%;
+    float: left;
+    padding: 1%;
+}
+.ltep-posts>img{
+    width:100%;
+}
+.ltep-post-contant .Featured-btn{
+    margin-left: 5px;
+}
+.ltep-post-contant>h2{
+    margin-top: 20px;
+}
+.ltep-post-contant>p{
+    color: gray;
+    margin-top: 5px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.ltnow{
+    text-decoration: none;
+}
+.ltep-post-contant{
+    background-color: rgb(255, 255, 255);
+    margin-top: -5px;
+    padding: 30px;
+}
+/******Subscribe Design******/
+.subscribe{
+    width: 100%;
+   background-color: white;
+}
+.div1{
+    width: 10%;
+    margin: 0 auto;
+    padding: 60px 0px 0px 0px;
+}
+.div1>img{
+    width: 120px;
+}
+.subscribe>h1{
+    text-align: center;
+}
+.subscribe>p{
+    text-align: center;
+    margin-top: 10px;
+}
+.subscribe>form{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.subscribe>form>input[type=email]{
+    padding: 15px;
+    width: 50%;
+    border: 2px solid black;
+}
+.subscribe>form>button{
+    padding: 13px;
+    width: 40%;
+    color: cornsilk;
+    background-color: black;
+    margin-left: -10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/*******Foofter design********/
+footer{width: 80%;
+    margin: 0 auto;
+    padding-top: 3%;
+    }
+footer>span{
+    margin-right: 15px;
+    float: left;
+}
+.footer-logo{
+    float: left;
+    width: 150px;
+    margin-left: 15%;
+    margin-bottom: 30px;
+}
+.social-logo{
+    width: 30px;
+    float: right;
+    margin-right: 15px;
+}
